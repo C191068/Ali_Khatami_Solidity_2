@@ -72,4 +72,13 @@ If our array individuals[] is empty we can get nothing by clicking the blue colo
 One think we must notice that capital word ```Individuals``` refers to struct or the new data type created.<br>
 ```individuals``` refers to array created<br>
 
+![d2](https://user-images.githubusercontent.com/89090776/226181083-701ffd73-4d5a-4ebb-aaa8-8499c1cd0a50.jpg)
+Figure2
+![d3](https://user-images.githubusercontent.com/89090776/226181154-04690157-27b8-413b-b641-743e9d8a2766.jpg)
+Figure3
+![d4](https://user-images.githubusercontent.com/89090776/226181168-639bb228-0427-400f-bbec-221186ed9fc4.jpg)
+Figure4
+
+
+
 
