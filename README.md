@@ -50,8 +50,9 @@ contract akrkSimplestorage {
   //now we will create a function that is going to add individuals to Individual array
   function addCitizen(string memory _name, uint256 _preferredNumber) public {
       
-      individuals.push(Individuals(_preferredNumber,_name)); //push Individual in our individual array ,we can also do in this way
-  
+      individuals.push(Individuals(_preferredNumber,_name));//Here we have created a push function which is available in our Individuals object
+      //Here in the above inside the push function we have created a new Individual object that will take preferred number and name. 
+  //push Individual in our individual array ,we can also do in this way
   }
 
 
@@ -60,3 +61,15 @@ contract akrkSimplestorage {
 
 //0xd9145CCE52D386f254917e481eB44e9943F39138
 ```
+
+In our deploy and run transactions tab we get the following after compiling the above code :
+![d1](https://user-images.githubusercontent.com/89090776/226176285-2ec73425-b364-4e32-aae6-ff06af8c592f.jpg)
+Figure:1
+
+Here,<br>
+In the figure 1 we can see that blue color button ```individuals``` , instead of having a single button where the value shows up ,it is giving us a form to fill up<br>
+If our array individuals[] is empty we can get nothing by clicking the blue color button ```individuals```.<br>
+One think we must notice that capital word ```Individuals``` refers to struct or the new data type created.<br>
+```individuals``` refers to array created<br>
+
+
