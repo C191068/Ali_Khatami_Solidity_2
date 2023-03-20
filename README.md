@@ -1,4 +1,4 @@
-## Ali_Khatami_Solidity_2
+## Ali_Khatami_Solidity_2(Learning from video of Patrick Collins)
 ### Array and structure
 
 Here we have created Array and structure<br>
