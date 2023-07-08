@@ -6,7 +6,8 @@ Structure means we are creating new data type.<br>
 Array is a data structure that will store large amount of data of same type.<br>
 
 
-```
+```solidity
+
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.7;
 
